@@ -5,7 +5,7 @@
 
 # WPF Dock Layout Manager - Customize a DockPanel's Header and Content Elements
 
-This example changes appearance of the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)'s Header and Content Elements. To do this, you should specify the following `DockPaneElementsThemeKey` keys:
+This example changes the appearance of the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)'s Header and Content Elements. To do this, specify the following `DockPaneElementsThemeKey` keys:
 
 * `<DataTemplate x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=Header}">`
 * `<DataTemplate x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=ContentHostTemplate}">`
