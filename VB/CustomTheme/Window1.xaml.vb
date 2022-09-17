@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to customize header and content elements of the DockPanel in the DockManager (creating a custom theme)
 ' 
 ' It's necessary to respecify templates corresponding to the defined resource
@@ -14,16 +14,15 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E1918
-
-
-Imports Microsoft.VisualBasic
 Imports System.Windows
 
 Namespace CustomTheme
-	Partial Public Class Window1
-		Inherits Window
-		Public Sub New()
-			InitializeComponent()
-		End Sub
-	End Class
+
+    Public Partial Class Window1
+        Inherits Window
+
+        Public Sub New()
+            Me.InitializeComponent()
+        End Sub
+    End Class
 End Namespace
